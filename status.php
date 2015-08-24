@@ -9,7 +9,6 @@
 $online = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/on-air.gif' alt='Stream Online' border='0'><iframe name='window' src='/nlplayer/on/' width='395' height='433' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>
 "; // Cuando el flujo esta en line
 $offline = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' alt='Stream Offline' border='0'><iframe name='window' src='/nlplayer/off/' width='395' height='433' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>"; // Cuando el flujo no esta en linea
-// don't edit below //
 $host = "orlandohc.ddns.net";
 $port = "8000";
 $fp = @fsockopen($host,$port,$errno,$errstr,1);
