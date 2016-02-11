@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="../plugin/ttw-music-player-min.js"></script>
+    <script type="text/javascript" src="js/myplaylist.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var description = 'www.orlandohc.org | LIVE From Mexico';
+
+            $('body').ttwMusicPlayer(myPlaylist, {
+                autoPlay:true, 
+                description:description,
+                jPlayer:{
+                    swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    
+<div id="footer">
+    <div align="center"><a href="vlc://http://orlandohc.ddns.net:8000/live"><img src="/nlplayer/on/images/VLC_Icon.png"></a><a href="http://orlandohc.ddns.net/nlplayer/app" target=_blank><img src="/nlplayer/on/images/android_icon.png"><a href="http://orlandohc.ddns.net:8000/live.m3u"><img src="/nlplayer/on/images/winamp_icon.png"></a></div>
+    <div>Not Audio? Try Direct <a href="http://orlandohc.ddns.net:8000/live" target="_blank">M3U</a> / 
+  <a href="http://orlandohc.ddns.net:8000/live.xspf" target="_blank">XSPF</a></div></div>
+</body>
+</html>

@@ -7,7 +7,7 @@
 <title>Status Script By Masterk3y</title>
 </head>
 <?php
-$online = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/on-air.gif' alt='Stream Online' border='0'><iframe name='window' src='/nlplayer/on/' width='395' height='433' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>
+$online = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/on-air.gif' alt='Stream Online' border='0'><iframe name='window' src='/nlplayer/android/on/' width='395' height='500' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>
 "; // Cuando el flujo esta en line
 $offline = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' alt='Stream Offline' border='0'><iframe name='window' src='/nlplayer/off/' width='395' height='550' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>"; // Cuando el flujo no esta en linea
 // don't edit below //

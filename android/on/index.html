@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width , height=device-height " />
+    <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/nlplayer/android/on/css/demo.css">
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="/nlplayer/android/plugin/ttw-music-player-min.js"></script>
+    <script type="text/javascript" src="js/myplaylist.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var description = 'After Play Need Wait 20 Seconds To Listen';
+           $('body').ttwMusicPlayer(myPlaylist, {
+               // autoPlay:true, 
+                description:description,
+                jPlayer:{
+                swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+<div id="footer">
+<!--<iframe name="window" src="/nlplayer/android/on/stream.html" width="180" height="60" marginwidth="0" scrolling="no" frameborder="0"></iframe>-->
+<iframe name="window" src="http://orlandohc.ddns.net:8000/live" width="120" height="90" marginwidth="0" scrolling="no" frameborder="0"></iframe>
+      <p><a href="vlc://http://orlandohc.ddns.net:8000/live"><img src="/nlplayer/on/images/VLC_Icon.png"></a><a href="http://orlandohc.ddns.net:8000/live.m3u"><img src="/nlplayer/on/images/winamp_icon.png"></a></p>
+      
+    </div>
+ </div>
+</body>
+</html>
