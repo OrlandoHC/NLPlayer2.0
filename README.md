@@ -1,5 +1,5 @@
-# NLPlayer2.0
-Now Listening Web Player 2.0
+# NLPlayer1.0
+Now Listening Web Player 1.0
 
 HTML 5 NOWLISTENING RADIO WEB PLAYER - ICECAST (AAC - MP3) 
 
