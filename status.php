@@ -3,15 +3,15 @@
 <head>
 <link rel="icon" type="/images" href="/images/favicon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width , height=device-height" />
+<meta name="viewport" content="width=device-width , height=device-height " />
 <title>Status Script By Masterk3y</title>
 </head>
 <?php
 $online = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/on-air.gif' alt='Stream Online' border='0'><iframe name='window' src='/nlplayer/on/' width='395' height='433' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>
 "; // Cuando el flujo esta en line
-$offline = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' alt='Stream Offline' border='0'><iframe name='window' src='/nlplayer/off/' width='395' height='550' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>"; // Cuando el flujo no esta en linea
+$offline = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' alt='Stream Offline' border='0'><iframe name='window' src='/nlplayer/off/' width='395' height='600' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>"; // Cuando el flujo no esta en linea
 // don't edit below //
-$host = "192.168.2.80";
+$host = "192.168.2.100";
 $port = "8000";
 $fp = @fsockopen($host,$port,$errno,$errstr,1);
 if (!$fp) { 

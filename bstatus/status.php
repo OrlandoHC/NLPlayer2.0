@@ -13,8 +13,8 @@ $offline = "<div align='center'><a href='/nlplayer' target='_blank'>
  <img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' /></a></div><div align='center'><a href='/nlplayer' target='_blank'>
  <img src='http://orlandohc.ddns.net/nlplayer/plugin/images/autodj_icon.png' /><div>"
  ; // Cuando el flujo no esta en linea
-$host = "192.168.2.80";
-$port = "8000";
+$host = "192.168.2.100"; // Direccion local del servidor streaming | Cambio a Ubuntu Server 10/05/2016
+$port = "8000";  // Puerto a utilizar en streaming 
 $fp = @fsockopen($host,$port,$errno,$errstr,1);
 if (!$fp) { 
 	$status = $offline;

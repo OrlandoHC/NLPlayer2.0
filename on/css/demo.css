@@ -44,7 +44,7 @@ body {
 
 #footer { 
     position: absolute;
-    margin-top: 280px; /* altura en px del footer con valor negativo */
+    margin-top: 270px; /* altura en px del footer con valor negativo */
     height: 50px; /* Altura del Footer en px*/  
     /*background: #286af0;  */
     text-align: center; 
