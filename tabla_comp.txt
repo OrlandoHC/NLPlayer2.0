@@ -1,9 +1,9 @@
- Formato Actual mp3 a 64 kbps | 44.1 khZ | Mono 
+ Formato Actual AAC+V2 a 24 kbps | 44.1 khZ | Stereo 
 +---------------------+-----+-----+-----+-----+
-| Browser             | Ogg | MP3 | AAC | Wav |
+| Browser             | Ogg | MP3 | AAC+| Wav |
 +---------------------+-----+-----+-----+-----+
 | Internet Explorer 9 | No  | Yes | Yes | No  |
-| Firefox 5           | Yes | Yes | No  | Yes |
+| Firefox 5           | Yes | Yes | Yes | Yes |
 | Chrome 12           | Yes | Yes | Yes | Yes |
 | Safari 5            | No  | Yes | Yes | Yes |
 | Opera 11.5          | Yes | Yes | No  | Yes |
