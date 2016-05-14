@@ -11,7 +11,7 @@ $online = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplay
 "; // Cuando el flujo esta en line
 $offline = "<div align='center'><img src='http://orlandohc.ddns.net/images/nlplayer/off-air.gif' alt='Stream Offline' border='0'><iframe name='window' src='/nlplayer/off/' width='395' height='600' marginwidth='0' scrolling='no' frameborder='0'></iframe></div>"; // Cuando el flujo no esta en linea
 // don't edit below //
-$host = "192.168.2.80";
+$host = "192.168.2.100";
 $port = "8000";
 $fp = @fsockopen($host,$port,$errno,$errstr,1);
 if (!$fp) { 
