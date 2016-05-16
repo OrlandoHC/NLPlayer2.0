@@ -42,6 +42,13 @@ body {
     color:#fff;
 }
 
+#nowplaying{
+    top:5px;
+    text-align: center;
+    font-family:arial, sans-serif;
+    font-size:30px;
+}
+
 #footer { 
     position: absolute;
     margin-top: 270px; /* altura en px del footer con valor negativo */
