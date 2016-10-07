@@ -1,4 +1,4 @@
- Formato Actual AAC+V2 a 24 kbps | 44.1 khZ | Stereo 
+ Formato Actual AAC+V2 a 40 kbps | 44.1 khZ | Stereo 
 +---------------------+-----+-----+-----+-----+
 | Browser             | Ogg | MP3 | AAC+| Wav |
 +---------------------+-----+-----+-----+-----+
